@@ -4,14 +4,14 @@ public class Main {
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
         
-        if(A > B)
+        if(a > b)
         	System.out.println(">");
-        if(A < B)
+        else if(a < b)
         	System.out.println("<");
-        else if(A == B)
+        else if(a == b)
         	System.out.println("==");
         
         scanner.close();
